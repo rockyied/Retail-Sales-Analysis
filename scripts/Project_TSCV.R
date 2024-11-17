@@ -2,7 +2,7 @@
 rm(list=ls())
 
 #Load dataset
-data <- read.csv("C:/Users/Rakesh/Desktop/train.csv", header=TRUE, stringsAsFactors=FALSE)
+data <- read.csv("C:/Users/Desktop/train.csv", header=TRUE, stringsAsFactors=FALSE)
 
 #Sumary of dataset
 summary(data)
